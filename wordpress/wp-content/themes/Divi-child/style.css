@@ -1,0 +1,244 @@
+/*
+Theme Name: Divi Child
+Theme URI: http://www.artezzo.com.br
+Version: 1.0
+Author: Artezzo
+Author URI: http://www.artezzo.com.br
+Text Domain: divi
+Template: divi
+*/
+
+@import url('../Divi/style.css');
+
+@font-face {
+    font-family: 'gotham_blackregular';
+    src: url('fonts/gotham-black-webfont.eot');
+    src: url('fonts/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('fonts/gotham-black-webfont.woff') format('woff'),
+         url('fonts/gotham-black-webfont.ttf') format('truetype'),
+         url('fonts/gotham-black-webfont.svg#gotham_blackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_bookregular';
+    src: url('gotham_book-webfont.eot');
+    src: url('gotham_book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('gotham_book-webfont.woff2') format('woff2'),
+         url('gotham_book-webfont.woff') format('woff'),
+         url('gotham_book-webfont.ttf') format('truetype'),
+         url('gotham_book-webfont.svg#gotham_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_boldregular';
+    src: url('fonts/gotham-bold-webfont.eot');
+    src: url('fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-bold-webfont.woff2') format('woff2'),
+         url('fonts/gotham-bold-webfont.woff') format('woff'),
+         url('fonts/gotham-bold-webfont.ttf') format('truetype'),
+         url('fonts/gotham-bold-webfont.svg#gotham_boldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_lightregular';
+    src: url('fonts/gotham-light-webfont.eot');
+    src: url('fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-light-webfont.woff2') format('woff2'),
+         url('fonts/gotham-light-webfont.woff') format('woff'),
+         url('fonts/gotham-light-webfont.ttf') format('truetype'),
+         url('fonts/gotham-light-webfont.svg#gotham_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'gotham_mediumregular';
+    src: url('fonts/gotham-medium-webfont.eot');
+    src: url('fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/gotham-medium-webfont.woff2') format('woff2'),
+         url('fonts/gotham-medium-webfont.woff') format('woff'),
+         url('fonts/gotham-medium-webfont.ttf') format('truetype'),
+         url('fonts/gotham-medium-webfont.svg#gotham_mediumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.et_header_style_left #et-top-navigation nav > ul > li > a {
+    font-family: 'gotham_boldregular';
+	font-size: 16px;
+	text-transform: uppercase;	
+}
+
+.menu-icon a {
+	width: 34px;
+	height: 34px;
+	display: block;
+	text-indent: -9999px;
+	top: -10px;
+}
+
+.menu-icon-first {
+	margin-left: 50px;
+}
+
+.menu-icon-twitter a {
+	background:url('img/menu-icon-twitter.png') left top no-repeat;
+}
+
+.menu-icon-facebook a {
+	background:url('img/menu-icon-facebook.png') left top no-repeat;
+}
+
+.menu-icon-instagram a {
+	background:url('img/menu-icon-instagram.png') left top no-repeat;
+}
+
+
+.title-primary {
+    font-family: 'gotham_lightregular';
+    text-transform: uppercase;
+}
+
+.title-bold  {
+	font-family: 'gotham_boldregular';
+}
+
+.blur-empresa {
+	border: #fff solid 1px;
+    padding: 10px 10px 10px 15px;
+    color: #fff !important;
+}
+
+.blur-empresa h4, .blur-footer h4 {
+	font-family: 'gotham_lightregular';
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blur-footer h4 {
+	font-family: 'gotham_boldregular';
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blur-empresa .et_pb_blurb_content p  {
+	color: #fff;
+}
+
+.blur-missao:before {
+	content: "";
+	width: 33px;
+	height: 50px;
+	background: url('img/blur-missao.png') left top no-repeat;
+	top:50%;
+	position: absolute;
+	display: block;
+	margin-top: -25px;
+    margin-left: -35px;
+}
+
+.blur-visao:before {
+	content: "";
+	width: 33px;
+	height: 52px;
+	background: url('img/blur-valores.png') left top no-repeat;
+	top:50%;
+	position: absolute;
+	display: block;
+	margin-top: -26px;
+    margin-left: -35px;
+}
+
+.blur-valores:before {
+	content: "";
+	width: 34px;
+	height: 52px;
+	background: url('img/blur-visao.png') left top no-repeat;
+	top:50%;
+	position: absolute;
+	display: block;
+	margin-top: -26px;
+    margin-left: -34px;
+}
+
+
+.input{
+	font-family: 'gotham_lightregular' !important;
+	text-transform: uppercase;
+	font-size: 19px !important;
+}
+
+.et_pb_contact_submit {
+    font-family: 'gotham_boldregular';
+}
+
+
+#form-contato input[type="text"], #form-contato input[type="email"], #form-contato textarea {
+	background: transparent !important;
+	border-bottom:1px solid #bdbdbd; 
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters ul {
+	float: right;
+    position: absolute;
+    top: -55px;
+    right: 0;
+    border: 0px;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li:first-child a {
+	border-radius:0px; 
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li:last-child a {
+	border-radius:0px; 
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a {
+	font-family: 'gotham_boldregular';
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 16px;
+	background: transparent !important;
+	border: 0px;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a.active {
+	color: #ff6600;
+}
+
+.et_pb_filterable_portfolio .et_pb_portfolio_filters li a:hover {
+	color: #ccc !important;
+}
+
+.et_pb_gutters3 .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_widget, .et_pb_gutters3 .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_filterable_portfolio .et_pb_portfolio_item.et_pb_grid_item, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_widget, .et_pb_gutters3.et_pb_row .et_pb_column_4_4 .et_pb_shop_grid .woocommerce ul.products li.product, .et_pb_gutters3 .et_full_width_page.woocommerce-page ul.products li.product {
+    width: 19.280%;
+    margin: 0px 0.9% 0.9% 0;
+}

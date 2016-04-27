@@ -166,6 +166,10 @@ p {
 	font-family: 'gotham_boldregular';
 }
 
+.title-bold p  {
+	font-family: 'gotham_boldregular' !important;
+}
+
 .blur-empresa {
 	border: #fff solid 1px;
     padding: 10px 10px 10px 15px;

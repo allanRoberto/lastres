@@ -32,6 +32,17 @@
 		$et_pb_first_row = $( 'body.et_pb_pagebuilder_layout .et_pb_section:first-child' );
 
 	$(document).ready( function(){
+
+		$("a[data-target=#modal-project]").click(function(ev) {
+		    ev.preventDefault();
+		    $("#modal-project .modal-content").html('<div></div>');
+		    var target = $(this).attr("href");
+		    // load the url and show modal on success
+		    $("#modal-project .modal-content").load(target, function() { 
+		         $("#modal-project").modal("show"); 
+			});
+		});
+
 		var $et_top_menu = $( 'ul.nav' ),
 			$et_search_icon = $( '#et_search_icon' ),
 			et_parent_menu_longpress_limit = 300,

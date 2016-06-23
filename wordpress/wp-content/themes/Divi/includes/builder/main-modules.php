@@ -7679,7 +7679,7 @@ class ET_Builder_Module_Filterable_Portfolio extends ET_Builder_Module {
 					$thumb = $thumbnail["thumb"];
 
 					if ( '' !== $thumb ) : ?>
-						<a href="<?php esc_url( the_permalink() ); ?>">
+						<a href="<?php esc_url( the_permalink() ); ?>" data-toggle="modal" data-target="#modal-project">
 						<?php if ( 'on' !== $fullwidth ) : ?>
 							<span class="et_portfolio_image">
 						<?php endif; ?>
